@@ -20,8 +20,8 @@ Reffer to GPIO pinout for RPi 2/3
 ## Software Installation steps:
 - ```sudo apt-get update```
 - ```sudo apt-get upgrade```
-- Copy fan_control.py contents or file to home/pi/ folder
-- Copy fan_control.sh contents or file to home/pi/ folder
+- Copy [fan_control.py](https://github.com/nockab/RPi-Simple-fan-control/blob/master/fan_control.py) contents or file to home/pi/ folder
+- Copy [fan_control.sh](https://github.com/nockab/RPi-Simple-fan-control/blob/master/fan_control.sh) contents or file to home/pi/ folder
 - Change fan_control.sh permissions with ```chmod 755 fan_control.sh```
 - Check if script works ```sh fan_control.sh```, it should run. Ctrl-C to stop.
 - Create folder for crontab logs "mkdir logs"
