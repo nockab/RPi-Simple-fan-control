@@ -29,5 +29,9 @@ Reffer to GPIO pinout for RPi 2/3
 - Select nano option ```2```
 - At the bottom of file paste:
 - ```@reboot sh /home/pi/fan_control.sh >/home/pi/logs/cronlog 2>&1```
+- Edit /etc/rc.local by ```sudo nano /etc/rc.local```
+- At the bottom of file paste:
+- ```/home/pi/fan_control.sh &```
+- Exit from nano an save
 - ```sudo reboot```
 - Enjoy!
